@@ -46,6 +46,7 @@ public class Main extends JFrame implements ActionListener, KeyListener {
     private void generateFood() {
         Random random = new Random();
         int x, y;
+
         do {
             x = random.nextInt(GRID_SIZE);
             y = random.nextInt(GRID_SIZE);
@@ -103,21 +104,15 @@ public class Main extends JFrame implements ActionListener, KeyListener {
         super.paint(g);
 
         // Draw snake
-        g.setColor(Color.GREEN);
+        g.setColor(new Color(122, 255, 122));
         for (Point point : snake) {
             g.fillRect(point.x * TILE_SIZE, point.y * TILE_SIZE, TILE_SIZE, TILE_SIZE);
         }
 
         // Draw food
-        g.setColor(Color.RED);
-        g.fillRect(food.x * TILE_SIZE, food.y * TILE_SIZE, TILE_SIZE, TILE_SIZE);
+        g.setColor(new Color(255, 0, 58));
+        g.fillOval(food.x * TILE_SIZE, food.y * TILE_SIZE, TILE_SIZE, TILE_SIZE);
 
-        // Draw grid
-        g.setColor(Color.GRAY);
-        for (int i = 0; i < GRID_SIZE; i++) {
-            g.drawLine(i * TILE_SIZE, 0, i * TILE_SIZE, getHeight());
-            g.drawLine(0, i * TILE_SIZE, getWidth(), i * TILE_SIZE);
-        }
     }
 
     public static void main(String[] args) {
