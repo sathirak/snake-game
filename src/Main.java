@@ -23,6 +23,7 @@ public class Main extends JFrame implements ActionListener, KeyListener {
     private int direction;
 
     public Main() {
+
         setTitle("Snake Game");
         setSize(GRID_SIZE * TILE_SIZE, GRID_SIZE * TILE_SIZE);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
