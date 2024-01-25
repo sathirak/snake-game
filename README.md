@@ -1,15 +1,21 @@
-# Snake Game in Java
 
-A simple Snake Game implemented in Java using the Swing library.
+<h1 align="center" >
+   
+  **Snake Game in Java**
+</h1 >
 
-<div align="center">
-   
-   ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-   
+<div align="center" >
+   <a href="https://www.npmjs.com/" title="Java"><img src="https://octodex.github.com/images/manufacturetocat.png" alt="Java" width="600px" height="600px"></a> 
 </div>
 
+<br>
+<h3 align="center" >
+   A simple Snake Game implemented in Java using the Swing library.
+</h3>
 
-## How to Run
+<h2 >
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/java.svg" alt="Java" width="45px" height="45px" /> How to Run 
+</h2>
 
 1. Ensure you have Java installed on your machine.
 
@@ -23,7 +29,6 @@ A simple Snake Game implemented in Java using the Swing library.
    <li>
       <p>Navigate to the project directory:</p>
       <pre>cd snake-game-java</pre>
-      
    </li>
    
    <li>
@@ -46,7 +51,10 @@ A simple Snake Game implemented in Java using the Swing library.
    
 </ol>
 
-<h2>Game Controls</h2>
+<h2>
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/java.svg" alt="Java" width="45px" height="45px" /> Game Controls
+</h2>
+
 <ul>
    <li><strong>Arrow UP:</strong> Move the snake up</li>
    <li><strong>Arrow DOWN:</strong> Move the snake down</li>
@@ -55,24 +63,37 @@ A simple Snake Game implemented in Java using the Swing library.
    <li><strong>Enter:</strong> Start or restart the game</li>
    <li><strong>P:</strong> Pause or resume the game</li>
 </ul>
-<h2>Game Screens</h2>
+
+<h2>
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/java.svg" alt="Java" width="45px" height="45px" /> Game Screens
+</h2>
+
 <h3>Start Screen</h3>
 <ul>
    <li>Displays "Press Enter to Start"</li>
 </ul>
+
 <h3>Running Screen</h3>
 <ul>
    <li>Snake moves, and the objective is to eat the food to grow.</li>
 </ul>
+
 <h3>Paused Screen</h3>
 <ul>
    <li>Displays "Game Paused"</li>
    <li>Press <code>P</code> to resume the game.</li>
-</ul><h3>Game Over Screen</h3><ul>
+</ul>
+
+<h3>Game Over Screen</h3>
+<ul>
    <li>Displays "Game Over"</li>
    <li>Press <code>Enter</code> to restart the game.</li>
 </ul>
-<h2>Customization</h2>
+
+
+<h2>
+   <img src="https://github.com/get-icon/geticon/raw/master/icons/java.svg" alt="Java" width="45px" height="45px" /> Customization
+</h2>
 <p>You can customize the game parameters, such as grid size, tile size, game speed, and colors, by modifying the corresponding constants in the <code>Main.java</code> file.</p>
 <p>Feel free to explore and modify the code to suit your preferences.</p>
 <h2>Acknowledgments</h2>
