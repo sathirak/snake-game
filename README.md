@@ -27,18 +27,9 @@
 <ol start="3">
    
    <li>
-      <p>Navigate to the project directory:</p>
-      <pre>cd snake-game-java</pre>
-   </li>
-   
-   <li>
-      <p>Compile the Java files:</p>
-      <pre>java Main</pre>
-   </li>
-   
-   <li>
-      <p>Run the game:</p>
-      <pre>javac Main.java</pre>
+      <p>Navigate to the project directory and run</p>
+      <pre>cd snake-game/executable-build
+      <br>java -jar SnakeGame.jar</pre>
    </li>
    
    <li>
